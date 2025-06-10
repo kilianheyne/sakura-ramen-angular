@@ -1,0 +1,53 @@
+
+header {
+    width: 100%;
+    padding: 32px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    >img {
+        width: 64px;
+        height: 64px;
+    }
+
+    >nav {
+        width: 700px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        >a {
+            color: white;
+            font-size: 24px;
+            font-family: "Raleway";
+        }
+    }
+}
+
+.call-btn {
+    background: #9e0a08;
+
+    border: 2px solid #FFF;
+    border-radius: 11px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+    padding: 10px;
+
+    font-size: 24px;
+
+    >img {
+        height: 24px;
+        width: auto;
+    }
+
+    >a {
+        color: white;
+        font-family: "Raleway";
+    }
+}
