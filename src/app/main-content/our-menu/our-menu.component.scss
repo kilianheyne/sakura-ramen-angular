@@ -1,0 +1,48 @@
+section {
+    background: url('./../../../assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 120px 160px;
+}
+
+h2 {
+    font-size: 80px;
+    color: #9F0908;
+    text-align: center;
+    font-family: "Raleway";
+}
+
+h3 {
+    font-size: 56px;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+p {
+    color: #675E54;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Raleway";
+}
+
+.menu-point {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    >img {
+        width: 350px;
+        height: auto;
+    }
+
+    .menu-pricing {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+#flexReverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
