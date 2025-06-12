@@ -1,7 +1,7 @@
+@import './../../../styles.scss';
+
 section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include dFlex($fd: column);
     width: 100%;
     padding: 120px 160px;
 }
@@ -19,15 +19,12 @@ h3 {
 }
 
 #order-steps {
-    display: flex;
-    justify-content: space-around;
+    @include dFlex($jc: space-around);
     width: 100%;
 }
 
 .order-step {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include dFlex($fd: column);
 
     >img {
         width: 128px;
